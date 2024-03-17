@@ -206,8 +206,8 @@ span {
   padding: 3rem 2rem 4rem;
   border-radius: 2rem;
   text-align: center;
-  border: .2rem solid var(--bg-color);
-  transition: .5s easy;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s easy;
 }
 
 .services-container .services-box:hover {
@@ -222,7 +222,6 @@ span {
 
 .services-box h3 {
   font-size: 2.6rem;
-
 }
 
 .services-box p {
@@ -232,8 +231,6 @@ span {
 
 .portfolio {
   background: var(--snd-bg-color);
-
-
 }
 
 .portfolio h2 {
@@ -279,12 +276,11 @@ span {
   text-align: center;
   padding: 0 4rem;
   transform: translateY(100%);
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .portfolio-box:hover .portfolio-layer {
   transform: translateY(0);
-
 }
 
 .portfolio-layer h4 {
@@ -293,7 +289,7 @@ span {
 
 .portfolio-layer p {
   font-size: 1.6rem;
-  margin: .3rem 0 1rem;
+  margin: 0.3rem 0 1rem;
 }
 
 .portfolio-layer a {
