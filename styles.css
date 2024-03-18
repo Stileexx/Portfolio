@@ -207,7 +207,7 @@ span {
   border-radius: 2rem;
   text-align: center;
   border: 0.2rem solid var(--bg-color);
-  transition: 0.5s easy;
+  transition: 0.5s ease;
 }
 
 .services-container .services-box:hover {
