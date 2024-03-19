@@ -377,8 +377,7 @@ a .footer-iconTop i {
   color: var(--snd-bg-color);
 }
 
-.contact-btn-container {
+.bottom-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
