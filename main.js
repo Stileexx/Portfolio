@@ -6,3 +6,8 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('fa-xmark');
     navbar.classList.toggle('active');
 }
+
+// scroll section active link
+
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
