@@ -447,6 +447,10 @@ a .footer-iconTop i {
     display: none;
   }
 
+  .navbar .active {
+    display: block;
+  }
+
   .home {
     flex-direction: column;
   }
