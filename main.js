@@ -25,12 +25,19 @@ window.onscroll = () => {
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
         };
+ 
+ 
     });
-}
 
+    
 // sticky navbar
 
 let header = document.querySelector('header');
 header.classList.toggle('sticky' , window.scrollY > 100);
 
 // remove toggle icon and navbar
+
+menuIcon.classList.remove('fa-xmark');
+navbar.classList.remove('active');
+
+};
