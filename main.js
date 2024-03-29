@@ -41,3 +41,7 @@ menuIcon.classList.remove('fa-xmark');
 navbar.classList.remove('active');
 
 };
+
+// scroll reveal
+
+

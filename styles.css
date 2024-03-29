@@ -447,7 +447,7 @@ a .footer-iconTop i {
     display: none;
   }
 
-  .navbar .active {
+  .navbar.active {
     display: block;
   }
 
