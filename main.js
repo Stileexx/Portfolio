@@ -35,7 +35,7 @@ window.onscroll = () => {
 let header = document.querySelector('header');
 header.classList.toggle('sticky' , window.scrollY > 100);
 
-// remove toggle icon and navbar
+//  bar
 
 menuIcon.classList.remove('fa-xmark');
 navbar.classList.remove('active');
@@ -54,3 +54,6 @@ ScrollReveal().reveal('.home-content, heading', {origin: 'top'});
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', {origin: 'bottom'});
 ScrollReveal().reveal('.home-contact h1, .about-img', {origin: 'left'});
 ScrollReveal().reveal('.home-contact p, .about-content', {origin: 'right'});
+
+// Typed js
+const typed = new Typed('.multiple-text')
