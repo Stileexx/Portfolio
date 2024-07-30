@@ -7,3 +7,10 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
+
+:root {
+  --accent: #5753ff;
+  --black: #121111;
+  --grey: #181818;
+  
+}
