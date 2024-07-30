@@ -134,3 +134,49 @@ nav.sticky {
   background-color: var(--accent);
   border: 1px solid var(--accent);
 }
+
+/* Hero Section */
+
+.hero-section {
+  display: flex;
+  margin-top: 80px;
+  padding: 0px 50px;
+  gap: 50px;
+}
+
+.hero-section img {
+  margin-top: 20px;
+  margin-left: -270px;
+}
+
+/* Hero Headline */
+
+.hero-headline {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.hero-headline h1 {
+  font-size: 96px;
+  font-weight: 900;
+}
+
+.hero-headline h2 {
+  font-size: 64px;
+  color: var(--accent);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.btn-hero {
+  display: flex;
+  width: 234px;
+  height: 50px;
+  font-size: 20px;
+  align-items: center;
+}
