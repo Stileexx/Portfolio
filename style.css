@@ -91,7 +91,7 @@ nav.sticky {
   font-weight: 400;
 }
 
-.menua::after,
+.menu a::after,
 .menu-navbar a::after {
   color: var(--accent);
   content: "";
