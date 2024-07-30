@@ -12,5 +12,125 @@
   --accent: #5753ff;
   --black: #121111;
   --grey: #181818;
-  
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--black);
+}
+
+body {
+  min-height: 100vh;
+}
+
+div,
+section {
+  overflow: hidden;
+}
+
+section {
+  min-width: 100%;
+  min-height: 100vh;
+  color: white;
+  background-color: var(--black);
+}
+
+/* Navbar */
+
+nav {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 15px 50px;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--black);
+  filter: drop-shadow(5px 5px 10px transparent);
+}
+
+/* Navbar Sticky */
+nav.sticky {
+  background: var(--black);
+  filter: drop-shadow(5px 5px 10px rgba(180, 168, 255, 0.13));
+}
+
+/* Navbar Brand */
+.brand {
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+}
+
+.brand:hover {
+  opacity: 0.8;
+}
+
+/* Navbar Menu */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+}
+
+.menu a,
+.menu-navbar a {
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.menua::after,
+.menu-navbar a::after {
+  color: var(--accent);
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 5px;
+  height: 0.1em;
+  bottom: 0;
+  left: 0;
+  background: currentColor;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.menu a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.btn {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-2 {
+  width: 200px;
+  height: 45px;
+  font-size: 20px;
+  background-color: var(--black);
+  border: 1px solid white;
+  color: white;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  background-color: var(--accent);
+  border: 1px solid var(--accent);
 }
