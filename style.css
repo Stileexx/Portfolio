@@ -204,3 +204,18 @@ nav.sticky {
 .hero-logos i:hover {
   color: var(--accent);
 }
+
+.hero-tagline {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 250px;
+  align-self: flex-end;
+  gap: 10px;
+}
+
+.hero-tagline p {
+  font-size: 20px;
+  text-justify: inter-word;
+  text-align: justify;
+}
