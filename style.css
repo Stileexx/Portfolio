@@ -217,3 +217,59 @@ nav.sticky {
   text-justify: inter-word;
   text-align: justify;
 }
+
+/* About Section */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 82px;
+}
+
+.about div {
+  display: flex;
+  width: 1111px;
+  gap: 40px;
+}
+
+.about-headline {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.about-headline p {
+  font-size: 36px;
+
+}
+
+.about-headline hr {
+  width: 50%;
+  margin-top: 5px;
+}
+
+.about .about-headline:nth-child(2) {
+  align-items: end;
+
+}
+
+.about .about-headline:nth-child(2) p {
+  text-align: end;
+  font-weight: 800;
+}
+
+.about .about-headline:nth-child(2) p b {
+  color: var(--accent);
+}
+
+.btn-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-about p {
+  font-size: 20px;
+}
