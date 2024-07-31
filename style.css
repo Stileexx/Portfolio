@@ -1,11 +1,11 @@
 /* Font link */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 :root {
@@ -78,7 +78,6 @@ nav.sticky {
   justify-content: center;
   align-items: center;
   gap: 25px;
-
 }
 
 .menu a,
@@ -198,7 +197,6 @@ nav.sticky {
   font-size: 50px;
   margin-top: 30px;
   transition: all 0.2s ease-in-out;
-
 }
 
 .hero-logos i:hover {
