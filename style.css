@@ -183,3 +183,7 @@ nav.sticky {
   justify-content: center;
   gap: 20px;
 }
+
+.btn-hero:hover {
+  gap: 10px;
+}
