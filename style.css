@@ -192,5 +192,15 @@ nav.sticky {
 .hero-logos {
   display: flex;
   gap: 20px;
+}
 
+.hero-logos i {
+  font-size: 50px;
+  margin-top: 30px;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.hero-logos i:hover {
+  color: var(--accent);
 }
