@@ -146,7 +146,8 @@ nav.sticky {
 
 .hero-section img {
   margin-top: 20px;
-  margin-left: -270px;
+  max-width: 50%;
+  /* filter: grayscale(90%); */
 }
 
 /* Hero Headline */
@@ -179,4 +180,6 @@ nav.sticky {
   height: 50px;
   font-size: 20px;
   align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
