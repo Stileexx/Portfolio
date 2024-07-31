@@ -187,3 +187,10 @@ nav.sticky {
 .btn-hero:hover {
   gap: 10px;
 }
+
+/* Hero Logos */
+.hero-logos {
+  display: flex;
+  gap: 20px;
+
+}
