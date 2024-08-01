@@ -236,14 +236,23 @@ nav.sticky {
 
 .about-headline {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 5px;
 }
 
 .about-headline p {
   font-size: 36px;
   color: white;
+}
 
+.first-text {
+  border-right: solid;
+  margin-left: 5px;
+}
+
+.second-text {
+  border-left: solid;
+  /* margin-right: 5px; */
 }
 
 .about-headline hr {
