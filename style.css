@@ -332,3 +332,36 @@ nav.sticky {
   text-decoration: none;
   color: var(--black);
 }
+
+/* Testimonials Section */
+.testimonials {
+  display: flex;
+  padding: 100px 50px;
+  justify-content: center;
+  gap: 24px;
+  background-color: var(--black);
+  color: white;
+}
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  height: 250px;
+  background-color: var(--gray);
+  justify-content: space-between;
+  border-radius: 32px;
+  padding: 40px 40px 22px 40px;
+}
+
+.testimony-text {
+  font-size: 20px;
+}
+
+.testimony-people {
+  font-size: 16px;
+}
+
+.testimony-people i {
+  color: var(--accent);
+}
