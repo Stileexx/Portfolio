@@ -1,4 +1,4 @@
-/* Font link */
+/* For Fonts, Link in the description */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 * {
@@ -11,7 +11,7 @@
 :root {
   --accent: #5753ff;
   --black: #121111;
-  --grey: #181818;
+  --gray: #181818;
 }
 
 html {
@@ -36,7 +36,6 @@ section {
 }
 
 /* Navbar */
-
 nav {
   z-index: 999;
   position: fixed;
@@ -72,7 +71,6 @@ nav.sticky {
 }
 
 /* Navbar Menu */
-
 .menu {
   display: flex;
   justify-content: center;
@@ -134,8 +132,7 @@ nav.sticky {
   border: 1px solid var(--accent);
 }
 
-/* Hero Section */
-
+/* Hero Section  */
 .hero-section {
   display: flex;
   margin-top: 80px;
@@ -143,14 +140,16 @@ nav.sticky {
   gap: 50px;
 }
 
+
 .hero-section img {
   margin-top: 20px;
-  max-width: 50%;
-  /* filter: grayscale(90%); */
+  width: 40%;
+  /* border-left: 1px solid white;
+  border-right: 1px solid white; */
+  border-bottom: 1px solid white;
 }
 
 /* Hero Headline */
-
 .hero-headline {
   display: flex;
   flex-direction: column;
@@ -236,23 +235,12 @@ nav.sticky {
 
 .about-headline {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 5px;
 }
 
 .about-headline p {
   font-size: 36px;
-  color: white;
-}
-
-.first-text {
-  border-right: solid;
-  margin-left: 5px;
-}
-
-.second-text {
-  border-left: solid;
-  /* margin-right: 5px; */
 }
 
 .about-headline hr {
@@ -262,7 +250,6 @@ nav.sticky {
 
 .about .about-headline:nth-child(2) {
   align-items: end;
-
 }
 
 .about .about-headline:nth-child(2) p {
