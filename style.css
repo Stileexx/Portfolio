@@ -270,3 +270,65 @@ nav.sticky {
 .btn-about p {
   font-size: 20px;
 }
+
+/* Works Section */
+.works {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.works h1 {
+  font-size: 64px;
+  align-self: center;
+  margin-bottom: 60px;
+}
+
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 50px;
+  gap: 25px;
+  justify-content: center;
+}
+
+.work-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.work-title {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.work-title h4 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+.work-title h5 {
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+.work-links a {
+  font-size: 20px;
+  color: white;
+  border: 1px solid transparent;
+  border-bottom: 2px solid white;
+  padding: 5px;
+  margin-right: 5px;
+  transition: all ease-in-out 0.3s;
+}
+
+.work-links a:hover {
+  background-color: white;
+  text-decoration: none;
+  color: var(--black);
+}
