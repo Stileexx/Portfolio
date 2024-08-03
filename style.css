@@ -140,7 +140,6 @@ nav.sticky {
   gap: 50px;
 }
 
-
 .hero-section img {
   margin-top: 20px;
   width: 40%;
@@ -309,7 +308,6 @@ nav.sticky {
   font-size: 32px;
   font-weight: 700;
 }
-
 
 .work-title h5 {
   font-size: 16px;
@@ -552,3 +550,4 @@ footer a {
   background-color: white;
   color: var(--black);
 }
+
