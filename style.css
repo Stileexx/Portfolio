@@ -598,3 +598,183 @@ footer a {
 .work-page-images img:hover {
   transform: scale(0.9);
 }
+
+/* Laptop and Tablet */
+@media (max-width: 1024px) and (min-width: 0px) {
+  section {
+    min-height: 100%;
+  }
+
+  /* Hero Section */
+  .hero-section img {
+    max-width: 500px;
+    height: auto;
+    margin-left: -180px;
+  }
+
+  .hero-headline {
+    margin-top: 80px;
+  }
+
+  .hero-headline h1 {
+    font-size: 48px;
+  }
+
+  .hero-headline h2 {
+    font-size: 36px;
+  }
+
+  .btn-hero {
+    width: 146px;
+    height: 35px;
+    font-size: 14px;
+    gap: 10px;
+  }
+
+  .btn-hero:hover {
+    gap: 8px;
+  }
+
+  .hero-tagline {
+    width: 230px;
+    margin-top: 140px;
+  }
+
+  .hero-tagline p {
+    font-size: 15px;
+  }
+
+  /* About Section */
+  .about div {
+    width: 650px;
+  }
+
+  .about-headline p {
+    font-size: 20px;
+  }
+
+  .about div {
+    gap: 10px;
+  }
+
+  .about div img {
+    width: 222px;
+    height: auto;
+  }
+
+  /* Projects Section */
+  .work-item {
+    align-items: center;
+  }
+
+  /* Testimonials Section */
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimony {
+    width: 100%;
+    height: 210px;
+    padding: 40px;
+    text-align: center;
+  }
+
+  /* Callout Section */
+  .callout {
+    padding: 0px 25px;
+  }
+
+  .callout div h2 {
+    font-size: 32px;
+  }
+
+  .btn-callout {
+    width: 243px;
+    height: 52px;
+    font-size: 24px;
+  }
+
+  .callout img {
+    width: 145px;
+    height: 136px;
+    height: auto;
+  }
+
+  /* Work Page Section */
+  .work-page-title {
+    gap: 12px;
+  }
+
+  .work-page-title h1 {
+    font-size: 64px;
+  }
+
+  .work-page-title h4 {
+    font-size: 20px;
+  }
+
+  .work-page p {
+    font-size: 20px;
+    width: 600px;
+  }
+
+  .work-page-images {
+    margin-top: 0px;
+    flex-direction: column;
+  }
+
+  /* Contact Page Section */
+  .contact {
+    padding: 0px 25px;
+  }
+
+  .contact-container {
+    gap: 25px;
+  }
+
+  .contact-container h1 {
+    width: 270px;
+    font-size: 64px;
+  }
+
+  .contact-tagline {
+    gap: 15px;
+    margin-top: 25px;
+  }
+
+  .contact-tagline p {
+    font-size: 14px;
+    width: 260px;
+  }
+
+  .contact-tagline img {
+    width: 138px;
+  }
+
+  .contact-info {
+    margin-top: 10px;
+  }
+
+  .contact-item h6,
+  .contact-item p {
+    font-size: 16px;
+  }
+
+  .contact-form {
+    padding: 10px 0px;
+    gap: 25px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 36px;
+  }
+
+  .btn-contact {
+    width: 200px;
+    height: 55px;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+}
